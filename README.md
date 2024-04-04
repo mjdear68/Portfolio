@@ -13,7 +13,7 @@ This research project was a major component of the Graduate Diploma in Science (
 
 The following visualisations were produced using Python code as a part of the project.
 
-![Blue Mountains National Park Project](img/BMNP.png)
+![Blue Mountains National Park Project](/img/BMNP.png)
 ### Project 2: Sentinel 2 Change Detection, Greater Blue Mountains World Heritage Area
 
 ### Project 3: Beginner's Guide to Remote Sensing With Python
