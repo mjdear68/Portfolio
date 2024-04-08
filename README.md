@@ -1,4 +1,4 @@
-# Portfolio
+# Geospatial Portfolio
 ## About
 I am passionate about using remote sensing and spatial analysis to help build a more just and sustainable world. In 2023-2024 I completed a research project while studying with the University of New England, Australia, in which I used a Landsat NDVI time series to investigate the spatial and temporal dynamics of vegetation in the Blue Mountains National Park, NSW. Based on this experience, I am now pursuing a career in remote sensing and spatial analysis.
 
@@ -20,7 +20,7 @@ The following visualisations were produced using Python code as a part of the pr
 ![Blue Mountains National Park Project](/img/BMNP.png)
 
 ### Beginner's Guide to Remote Sensing With Python
-I could not have completed my Graduate Diploma research project without the assistance of the vibrant and supportive coding community that can be found on sites such as [Stack overflow](https://stackoverflow.com/), [Geographic Information Systems](https://gis.stackexchange.com/), and [Cross Validated](https://stats.stackexchange.com/). In an effort to give back some of what I learned along the way, I created a collection of short Jupyter Notebook tutorials called the [Beginner's Guide to Remote Sensing With Python](https://github.com/mjdear68/Beginners_Guide_to_Remote_Sensing_With_Python). The tutorials are intended to be at a level accessible to people with minimal to intermediate Python experience, with each covering a common remote sensing task. They are published on GitHub at https://github.com/mjdear68/Beginners_Guide_to_Remote_Sensing_With_Python.
+I could not have completed my Graduate Diploma research project without the assistance of the vibrant and supportive coding community that can be found on sites such as [Stack overflow](https://stackoverflow.com/), [Geographic Information Systems](https://gis.stackexchange.com/), and [Cross Validated](https://stats.stackexchange.com/). In an effort to give back some of what I learned along the way, I created a collection of short Jupyter Notebook tutorials called the [Beginner's Guide to Remote Sensing With Python](https://github.com/mjdear68/Beginners_Guide_to_Remote_Sensing_With_Python). The tutorials are intended to be at a level accessible to people with minimal to intermediate Python experience, with each covering a common remote sensing task. They are published on GitHub at [https://github.com/mjdear68/Beginners_Guide_to_Remote_Sensing_With_Python](https://github.com/mjdear68/Beginners_Guide_to_Remote_Sensing_With_Python).
 
 ```
 fg = NDVI.sel(time=slice('2019-09','2020-02')).plot(col='time', 
