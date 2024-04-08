@@ -42,6 +42,6 @@ fg.fig.suptitle('NDVI Spring Summer 2019-2020', y=1.05, fontsize=14);
 
 ![Beginner's Guide to Remote Sensing With Python Project](/img/BGtoRS.png)
 
-<!-- 
+
 ### Sentinel 2 Change Detection, Greater Blue Mountains World Heritage Area 
--->
+This project was completed as a part of Birdlife Australia's annual Key Biodiversity Area (KBA) Easter Health Check (EHC) for the Greater Blue Mountains region. The EHC requires an assessment of the impact of various factors on the health of KBA's, such as development, fire, and recreational activities. Due to the large size of the Greater Blue Mountains KBA, a remote sensing change detection technique was employed to identify areas of change between the current and previous years, and between the current year and the mean of the previous five years.
