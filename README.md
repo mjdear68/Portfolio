@@ -58,4 +58,4 @@ This project was completed as a part of [Birdlife Australia's](https://birdlife.
 ![Sentinel 2 Change Detection, Greater Blue Mountains World Heritage Area](/img/KBA.png)
 
 
-[View the Project on GitHub >>](https://github.com/mjdear68/BirdLife_KBA_Change_Detection)
+[View the Project on GitHub >>](https://github.com/mjdear68/Greater-Blue-Mountains-KBA-Change-Detection-2024)
