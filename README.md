@@ -1,6 +1,6 @@
-# Geospatial Portfolio
+# Geospatial Remote Sensing Portfolio
 ## About
-I am passionate about using remote sensing and spatial analysis to help build a more just and sustainable world. In 2023-2024 I completed a research project while studying with the University of New England, Australia, in which I used a Landsat NDVI time series to investigate the spatial and temporal dynamics of vegetation in the Blue Mountains National Park, NSW. Based on this experience, I am now pursuing a career in remote sensing and spatial analysis.
+I am passionate about using remote sensing and geospatial analysis to help build a more just and sustainable world. In 2023-2024 I completed a research project while studying with the University of New England, Australia, in which I used a Landsat NDVI time series to investigate the spatial and temporal dynamics of vegetation in the Blue Mountains National Park, NSW. Based on this experience, I am now pursuing a career in remote sensing and geospatial analysis.
 
 ## Resume
 A copy of my resume can be downloaded by [clicking this link](/doc/mdear_resume.pdf).
