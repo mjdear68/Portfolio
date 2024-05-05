@@ -57,7 +57,7 @@ sidebar:
 career-profile:
     title: About
     summary: |
-        I am passionate about using remote sensing and geospatial analysis to help build a more just and sustainable world. In 2023-2024 I completed a research project while studying with the University of New England, Australia, in which I used a Landsat NDVI time series to investigate the spatial and temporal dynamics of vegetation in the Blue Mountains National Park, NSW. Based on this experience, I am now pursuing a career in remote sensing and geospatial analysis.
+        I am passionate about using statistics and data analysis to help build a more just and sustainable world. From 2021-2024 I completed a graduate diploma in applied statistics with the University of New England, Australia. During this course, I completed a research project in which I used a Landsat NDVI time series to investigate the spatial and temporal dynamics of vegetation in the Blue Mountains National Park, NSW. I am now pursuing a career in data and statistics, with a special interest in remote sensing and spatial analysis.
 
 
 education:
@@ -80,7 +80,9 @@ education:
 projects:
     title: Projects
     intro: >
-      This is a selection of my geospatial remote sensing projects.
+      During my time as a teacher with the New South Wales Department of Education I completed numerous projects related to student achievement, attendance, and well being. These projects involved the production of reports and presentations for school leaders that translated complex data into actionable insights. The output of these projects cannot be included here due to the sensitive nature of the information.
+      
+      Below is a selection of my geospatial remote sensing projects.
     assignments:
       - title: Landsat NDVI Time Series 1988-2023, Blue Mountains National Park
         link: "projects/bm_np_1988_2023.html"
