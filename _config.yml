@@ -1,5 +1,36 @@
-title: Michael Dear
-logo: /img/mdear_profile_pic_round_800x800.png
-#description: These are some examples of my work in remote sensing and spatial analysis. 
-#show_downloads: true
-theme: jekyll-theme-minimal
+#Update all the sections by editing the data.yml file inside _data folder.
+
+# Site Settings
+title: 'Geospatial Remote Sensing Portfolio | MDear'
+url: 'https://mjdear68.github.io/portfolio/'
+
+#change it according to your repository name
+# disabling since we are using a custom domain
+#baseurl: '/online-cv' 
+
+description: Geospatial Remote Sensing Portfolio
+# Style will be applied only after restarting the build or serve. Just choose one of the options.
+theme_skin: blue # blue turquoise green berry orange ceramic
+chrome_mobile_color: #use hex colors (ex:#1976d2) or leave empty if you don't want a color for chrome mobile searchbar
+
+# Tracker
+# analytics: UA-83979019-1
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+# Build settings
+compress-site: yes
+
+encoding: "utf-8"
+compress_html: # - http://jch.penibelst.de/
+  clippings: all
+  ignore:
+    envs: development
+
+# Development Settings
+port: 4000
+host: 0.0.0.0
+safe: false

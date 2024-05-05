@@ -1,27 +1,90 @@
-# Geospatial Remote Sensing Portfolio
-## About
-I am passionate about using remote sensing and geospatial analysis to help build a more just and sustainable world. In 2023-2024 I completed a research project while studying with the University of New England, Australia, in which I used a Landsat NDVI time series to investigate the spatial and temporal dynamics of vegetation in the Blue Mountains National Park, NSW. Based on this experience, I am now pursuing a career in remote sensing and geospatial analysis.
+<a href="https://jekyll-themes.com">
+<img src="https://img.shields.io/badge/featured%20on-JT-red.svg" height="20" alt="Jekyll Themes Shield" >
+</a>
 
-## Resume
-A copy of my resume can be downloaded by [clicking this link](/doc/mdear_resume.pdf).
+# Orbit
+> This theme is designed by Xiaoying Riley at [3rd Wave Media](http://themes.3rdwavemedia.com/).
+> Visit [her website](http://themes.3rdwavemedia.com/) for more themes.
 
-## Education
-* Bachelor of Science from University of New England, NSW, Australia. Graduated 2003.
-* Graduate Diploma in Education from University of New England, NSW, Australia. Graduated 2004.
-* Graduate Diploma in Science (Applied Statistics) from University of New England, NSW, Australia. Completed; graduation pending.
+I have made this into a Jekyll Theme. Checkout the live demo [here](https://online-cv.webjeda.com).
 
-## Projects
+<table>
+  <tr>
+    <th>Desktop</th>
+    <th>Mobile</th>
+  </tr>
+  <tr>
+    <td>
+        <img src="https://online-cv.webjeda.com/assets/images/desktop.png?raw=true" width="600"/>
+    </td>
+    <td>
+        <img src="https://online-cv.webjeda.com/assets/images/mobile.png?raw=true" width="250"/>
+    </td>
+  </tr>
+</table>
 
-This is a selection of my geospatial remote sensing projects. Click a heading to read more about the project.
+## Installation
 
-### [Landsat NDVI Time Series 1988-2023, Blue Mountains National Park](/projects/bm_np_1988_2023.md)
+* [Fork](https://github.com/sharu725/online-cv/fork) the repository;
+* Go to settings and set master branch as Github Pages source;
+* Your new site should be ready at `https://<username>.github.io/online-cv/`;
+* Printable version of the site can be found at `https://<username>.github.io/online-cv/print`. Use a third party link https://pdflayer.com/, https://www.web2pdfconvert.com/ etc to get the printable PDF.
 
-A Normalised Difference Vegetation Index (NDVI) time series was used to assess the spatial and temporal dynamics of native vegetation in a portion of the Blue Mountains National Park, New South Wales, Australia, for the 36-year period 1988-2023.
+Change all the details from one place: `_data/data.yml`.
 
-### [Beginner’s Guide to Remote Sensing With Python](/projects/beginners_guide.md)
+### To preview/edit locally with docker
 
-Tutorials covering common remote sensing tasks written at a level accessible to people with minimal to intermediate Python experience.
+```sh
+docker-compose up
+```
 
-### [Sentinel 2 Change Detection, Greater Blue Mountains World Heritage Area](/projects/GBM_KBA.md)
+*docker-compose.yml* file is used to create a container that is reachable under <http://localhost:4000>.
+Changes *_data/data.yml* will be visible after a while.
 
-Change detection using remote sensing to identify areas of change within the Greater Blue Mountains World Heritage Area. 
+### Local machine
+
+* Get the repo into your machine 
+
+```bash
+git clone https://github.com/sharu725/online-cv.git
+```
+
+* Install required ruby gems
+
+```bash
+bundle install
+```
+
+* Serve the site locally
+
+```bash
+bundle exec jekyll serve
+```
+
+* Navigate to `http://localhost:4000`
+
+
+## Skins
+
+There are 6 color schemes available:
+
+| Blue | Turquoise | Green |
+|---------|---------|---------|
+| <img src="https://online-cv.webjeda.com/assets/images/blue.jpg" width="300"/> | <img src="https://online-cv.webjeda.com/assets/images/turquoise.jpg" width="300"/> | <img src="https://online-cv.webjeda.com/assets/images/green.jpg" width="300"/> |
+
+| Berry | Orange | Ceramic |
+|---------|---------|---------|
+| <img src="https://online-cv.webjeda.com/assets/images/berry.jpg" width="300"/> | <img src="https://online-cv.webjeda.com/assets/images/orange.jpg" width="300"/> | <img src="https://online-cv.webjeda.com/assets/images/ceramic.jpg" width="300"/> |
+
+## Credits
+
+Thanks to [Nelson Estevão](https://github.com/nelsonmestevao) for all the [contributions](https://github.com/sharu725/online-cv/commits?author=nelsonmestevao).
+
+Thanks to [t-h-e(sfrost)](https://github.com/t-h-e) for all the [contributions](https://github.com/sharu725/online-cv/commits?author=t-h-e).
+
+Check out for more themes: [**Jekyll Themes**](http://jekyll-themes.com).
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=sharu725/online-cv&type=Date)](https://star-history.com/#sharu725/online-cv&Date)
+

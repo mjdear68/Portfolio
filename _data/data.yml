@@ -1,0 +1,246 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    position: left # position of the sidebar : left or right
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Michael Dear
+    tagline: Geospatial Remote Sensing Analyst
+    avatar: mdear_profile_pic_round_800x800.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: mjdear68@gmail.com
+    # phone: 012 345 6789
+    # timezone: America/Cancun Timezone
+    # citizenship:
+    # website: blog.webjeda.com #do not add http://
+    linkedin: mjdear68
+    # xing: alandoe
+    github: mjdear68
+    # telegram: # add your nickname without '@' sign
+    # gitlab:
+    # bitbucket:
+    # twitter: '@webjeda'
+    # stack-overflow: # Number/Username, e.g. 123456/alandoe
+    # codewars:
+    # goodreads: # Number-Username, e.g. 123456-alandoe
+    pdf: 'assets/pdf/MDear Resume - Data and Geospatial.pdf'
+
+    # languages:
+    #   title: Languages
+    #   info:
+    #     - idiom: English
+    #       level: Native
+
+    #     - idiom: French
+    #       level: Professional
+
+    #     - idiom: Spanish
+    #       level: Professional
+
+    # interests:
+    #   title: Interests
+    #   info:
+    #     - item: Climbing
+    #       link:
+
+    #     - item: Snowboarding
+    #       link:
+
+    #     - item: Cooking
+    #       link:
+
+career-profile:
+    title: About
+    summary: |
+        I am passionate about using remote sensing and geospatial analysis to help build a more just and sustainable world. In 2023-2024 I completed a research project while studying with the University of New England, Australia, in which I used a Landsat NDVI time series to investigate the spatial and temporal dynamics of vegetation in the Blue Mountains National Park, NSW. Based on this experience, I am now pursuing a career in remote sensing and geospatial analysis.
+
+
+education:
+    title: Education
+    info: 
+      - degree: Bachelor of Science, BSc
+        university: University of New England, Australia
+        time: Graduated 2003
+        details: |
+      - degree: Graduate Diploma in Education, GradDipEd
+        university: University of New England, Australia
+        time: Graduated 2004
+        details: |
+      - degree: Graduate Diploma in Science (Applied Statistics), GradDipSci
+        university: University of New England, Australia
+        time: Graduation pending 2024
+        details: |
+
+
+projects:
+    title: Projects
+    intro: >
+      This is a selection of my geospatial remote sensing projects.
+    assignments:
+      - title: Landsat NDVI Time Series 1988-2023, Blue Mountains National Park
+        link: "projects/bm_np_1988_2023.html"
+        tagline: "A Normalised Difference Vegetation Index (NDVI) time series was used to assess the spatial and temporal dynamics of native vegetation in a portion of the Blue Mountains National Park, New South Wales, Australia, for the 36-year period 1988-2023. "
+
+      - title: Beginner’s Guide to Remote Sensing With Python
+        link: "projects/beginners_guide.html"
+        tagline: "Tutorials at a level accessible to people with minimal to intermediate Python experience, covering common remote sensing tasks."
+
+      - title: Sentinel 2 Change Detection, Greater Blue Mountains World Heritage Area
+        link: "projects/GBM_KBA.html"
+        tagline: "Change detection using remote sensing to identify areas of change within the Greater Blue Mountains World Heritage Area."
+
+
+
+# experiences:
+#     title: Experiences
+#     info:
+#       - role: Lead Developer
+#         time: 2015 - Present
+#         company: Startup Hubs, San Francisco
+#         details: |
+#           Describe your role here lorem ipsum dolor sit amet, consectetuer
+#           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+#           Cum sociis natoque penatibus et magnis dis parturient montes,
+#           nascetur ridiculus mus. Donec quam felis, ultricies nec,
+#           pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+#           enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+#           error sit voluptatem accusantium doloremque laudantium, totam rem
+#           aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+#           architecto beatae vitae dicta sunt explicabo.
+#             - Bullet point
+#             - Bullet point
+#       - role: Senior Software Engineer
+#         time: 2014 - 2015
+#         company: Google, London
+#         details: |
+#           Describe your role here lorem ipsum dolor sit amet, consectetuer
+#           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+#           Cum sociis natoque penatibus et magnis dis parturient montes,
+#           nascetur ridiculus mus. Donec quam felis, ultricies nec,
+#           pellentesque eu, pretium quis, sem.
+#             - Bullet point
+#             - Bullet point
+#       - role: UI Developer
+#         time: 2012 - 2014
+#         company: Amazon, London
+#         details: |
+#           Describe your role here lorem ipsum dolor sit amet, consectetuer
+#           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+#           Cum sociis natoque penatibus et magnis dis parturient montes,
+#           nascetur ridiculus mus. Donec quam felis, ultricies nec,
+#           pellentesque eu, pretium quis, sem.
+#             - Bullet point
+#             - Bullet point
+
+# certifications:
+#       title: Certifications
+#       list:
+#         - name: CV Builder
+#           start: 2020
+#           end: 2021
+#           organization: Microsoft
+#           credentialid: 111-222
+#           credentialurl: www.google.com
+#           credentialname: Google
+#           details: |
+#             Details about cert. Lorem ipsum dolor sit amet, consectetur
+#             adipiscing elit.
+#             Nullam eget orci purus. Nullam ultrices neque nibh.
+#             Aenean fermentum, felis vulputate suscipit accumsan,
+#             sem enim bibendum augue, sed convallis arcu lacus at dui.
+#             Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+#             Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+#             Praesent venenatis erat non augue suscipit consectetur.
+
+#             Second paragraph. Sed eleifend enim ante, vitae efficitur purus
+#             fringilla vel. Ut euismod, sem sed vulputate venenatis,
+#             justo diam viverra velit, sed rhoncus leo leo eu justo.
+#             Suspendisse placerat risus ante, sed porta nisi blandit at.
+#         - name: Git learning
+#           start: 2019
+#           end:
+#           organization: Microsoft
+#           credentialid: 111-222
+#           credentialurl: www.github.com
+#           credentialname: Github
+#           details: |
+#             Older certification. Lorem ipsum dolor sit amet, consectetur
+#             adipiscing elit.
+#             Nullam eget orci purus. Nullam ultrices neque nibh.
+#             Aenean fermentum, felis vulputate suscipit accumsan,
+#             sem enim bibendum augue, sed convallis arcu lacus at dui.
+#             Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+#             Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+#             Praesent venenatis erat non augue suscipit consectetur.
+
+
+# oss:
+#     title: OSS Contributions
+#     intro: >
+#       You can list your open source software contributions in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     contributions:
+#       - title: Tempo
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+#       - title: Atom
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+#       - title: Delta
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+# publications:
+#     title: Publications
+#     intro: |
+#       You can list your publications in this section. Lorem ipsum dolor sit
+#       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#       bibendum fringilla a eu lectus.
+#     papers:
+#       - title: The Art of Computer Programming
+#         link: "#"
+#         authors: Donald E. Knuth
+#         conference: Addison-Wesley, 1968
+
+#       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#         link: "#"
+#         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+#       - title: A syntax directed compiler for Algol 60
+#         link: "#"
+#         authors: Edgar T. Irons
+#         conference: "Comm. ACM 4 (1961), 51–55"
+
+# skills:
+#     title: Skills &amp; Proficiency
+
+#     toolset:
+#       - name: Python & Django
+#         level: 98%
+
+#       - name: Javascript & jQuery
+#         level: 98%
+
+#       - name: Angular
+#         level: 98%
+
+#       - name: HTML5 & CSS
+#         level: 95%
+
+#       - name: Ruby on Rails
+#         level: 85%
+
+#       - name: Sketch & Photoshop
+#         level: 60%
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
