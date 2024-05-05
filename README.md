@@ -14,14 +14,14 @@ A copy of my resume can be downloaded by [clicking this link](/doc/mdear_resume.
 
 This is a selection of my geospatial remote sensing projects. Click a heading to read more about the project.
 
-### [Landsat NDVI Time Series 1988-2023, Blue Mountains National Park](/projects/bm_np_1988_2023.html)
+### [Landsat NDVI Time Series 1988-2023, Blue Mountains National Park](/projects/bm_np_1988_2023.md)
 
 A Normalised Difference Vegetation Index (NDVI) time series was used to assess the spatial and temporal dynamics of native vegetation in a portion of the Blue Mountains National Park, New South Wales, Australia, for the 36-year period 1988-2023.
 
-### [Beginner’s Guide to Remote Sensing With Python](/projects/beginners_guide.html)
+### [Beginner’s Guide to Remote Sensing With Python](/projects/beginners_guide.md)
 
 Tutorials covering common remote sensing tasks written at a level accessible to people with minimal to intermediate Python experience.
 
-### [Sentinel 2 Change Detection, Greater Blue Mountains World Heritage Area](/projects/GBM_KBA.html)
+### [Sentinel 2 Change Detection, Greater Blue Mountains World Heritage Area](/projects/GBM_KBA.md)
 
 Change detection using remote sensing to identify areas of change within the Greater Blue Mountains World Heritage Area. 
